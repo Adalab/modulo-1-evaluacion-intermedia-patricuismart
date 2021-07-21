@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 .header {
-  border: solid black;
+  /*border: solid black;*/
   width: 100vw;
   height: 110px;
   position: fixed;
@@ -15,19 +15,28 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+/*
 .logo {
   width: 155px;
   height: 61px;
-}
+}*/
 
-.menu {
-  border: solid tomato;
-}
 .menu-item {
-  border: solid yellow;
-  width: 20 px;
-  height: 20px;
+  /* border: solid yellow;*/
+  width: 77.5px;
   display: inline-block;
-  right: 10px;
+  text-decoration: none;
   color: #4a4a4a;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.main-section {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  top: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3cdbc0;
 }
