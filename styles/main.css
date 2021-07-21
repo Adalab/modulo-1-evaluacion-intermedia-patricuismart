@@ -1,0 +1,29 @@
+* {
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+}
+.header {
+  border: solid black;
+  width: 100vw;
+  height: 110px;
+  position: fixed;
+  top: 0;
+  background-color: white;
+}
+
+.main-section {
+  border: solid cornflowerblue;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  top: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tittle {
+  border: solid violet;
+  width: 400px;
+  height: 400px;
+}
