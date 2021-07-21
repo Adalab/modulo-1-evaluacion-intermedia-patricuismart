@@ -5,7 +5,6 @@
   box-sizing: border-box;
 }
 .header {
-  /*border: solid black;*/
   width: 100vw;
   height: 110px;
   position: fixed;
@@ -17,14 +16,8 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/*
-.logo {
-  width: 155px;
-  height: 61px;
-}*/
 
 .menu-item {
-  /* border: solid yellow;*/
   width: 77.5px;
   display: inline-block;
   text-decoration: none;
@@ -35,15 +28,12 @@
 .main-section {
   width: 100vw;
   height: 100vh;
-  /*position: relative;
-  top: 110px;*/
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #3cdbc0;
 }
 .tittle {
-  /*border: solid violet;*/
   width: 200px;
   height: 130px;
   color: #ffffff;
@@ -57,7 +47,6 @@
 
 @media all and (min-width: 768px) {
   .header {
-    /* border: solid yellow;*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -66,7 +55,6 @@
     padding-left: 30px;
   }
   .tittle {
-    /*border: solid yellow;*/
     width: 250px;
     height: 160px;
     font-size: 40px;
