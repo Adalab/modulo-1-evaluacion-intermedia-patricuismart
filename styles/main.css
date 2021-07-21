@@ -33,10 +33,20 @@
 .main-section {
   width: 100vw;
   height: 100vh;
-  position: relative;
-  top: 110px;
+  /*position: relative;
+  top: 110px;*/
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #3cdbc0;
+}
+.tittle {
+  /*border: solid violet;*/
+  width: 200px;
+  height: 130px;
+  color: #ffffff;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 30px;
+  line-height: 1.3;
 }
